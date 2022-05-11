@@ -1,0 +1,75 @@
+
+.table {
+    width: 100% !important;
+    margin: 2rem 0;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100% !important;
+}
+
+.tr {
+    border-bottom: 1px solid #C4C4C4;
+    text-align: center !important;
+}
+
+.tr th {
+    padding: 0.8rem 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.countData {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #3B0C3A;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+
+.countData div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countData img {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+}
+
+.tdR {
+    border-right: 1px solid #C4C4C4;
+    padding: 0.5rem 0.5rem;
+}
+
+.thImg {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.iconsFlex span {
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.iconsFlex span:hover {
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+    transition: 0.8s;
+}

@@ -1,0 +1,62 @@
+.mainImages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.mainImages img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 15px;
+}
+
+.mainImages div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.mainImages div img {
+    width: 20%;
+    height: 14vh;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.mainImages div img:hover {
+    transition: 0.8s;
+    opacity: 0.5;
+}
+
+@media(max-width: 920px) {
+    .mainImages div img {
+        width: 20%;
+        height: 7vh;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
+
+@media(max-width: 550px) {
+    .mainImages div img {
+        width: 20%;
+        height: 8vh;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
+
+@media(max-width: 330px) {
+    .mainImages div img {
+        width: 22%;
+        height: 12vh;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,740 @@
+.headerMainOne {
+    display: flex;
+    width: 100%;
+    background: black;
+    padding: 0.8rem 3rem;
+    justify-content: space-between;
+    border-bottom: 0.8px solid #cbc8c8;
+}
+
+.headerOne span {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.headerOne span i {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.headerOne span p {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.headerOne {
+    display: flex;
+    align-items: center;
+}
+
+.headerIcons {
+    padding: 0 0 0 2rem;
+}
+
+.headerIcons i {
+    color: white;
+    padding: 0 0.5rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nextArrow {
+    top: 48%;
+    position: absolute;
+    z-index: 100;
+    color: #FFFFFF;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.prevArrow {
+    position: absolute;
+    z-index: 100;
+    color: #FFFFFF;
+    font-size: 5rem;
+    right: 0;
+    bottom: 35%;
+    cursor: pointer;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.headerRight div a {
+    font-size: 25px;
+    cursor: pointer;
+    color: white !important;
+    padding: 0 1rem;
+}
+
+.headerRight div {
+    position: relative;
+}
+
+.headerRight div span {
+    position: absolute;
+    font-size: 12px;
+    background: red;
+    border-radius: 50%;
+    padding: 2px 0.5rem;
+    right: 0;
+}
+
+.headerRight span {
+    font-size: 25px;
+    cursor: pointer;
+    color: white !important;
+    padding: 0 1rem;
+}
+
+.headerRight select {
+    border: none !important;
+    background: black;
+    color: white;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    background: black;
+}
+
+.zDIv {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.zDIv img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.zDIv .homeOne {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.zDIvAbout {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.zDIvAbout img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.zDIvAbout .homeOne {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.linkMian {
+    color: #FF3333 !important;
+}
+
+.zDIvProduct {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.zDIvProduct img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.zDIvProduct .homeTextMain {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 10%;
+    left: 0%;
+    height: 100%;
+}
+
+.homeTextMain {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+}
+
+.headerFixed {
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+}
+
+.headerTwo {
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    padding: 0 2.3rem;
+}
+
+.homeOne {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.homeTwo h1 {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 78px;
+    line-height: 102px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.homeText {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 119px;
+    color: #FFFFFF;
+}
+
+.profileBtn {
+   color: #FFFFFF;
+}
+
+.homeTwo p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.homeTwo button {
+    background: #3B0C3A !important;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15), -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    padding: 10px 60px;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 26px;
+    transition: 0.5s;
+}
+
+.homeTwo button:hover {
+    transition: 0.8s;
+    background: #754773;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15), -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    padding: 10px 60px;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.homeMainTwo {
+    width: 100% !important;
+}
+.homeMainTwo img {
+    width: 100% !important;
+}
+
+.btn {
+    font-family: 'Roboto Slab';
+    border: none;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    color: #FFFFFF;
+    display: block !important;
+}
+
+.mainHome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+}
+
+.headOne {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@media(max-width: 950px) {
+
+    .homeText {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 119px;
+        color: #FFFFFF;
+        padding-top: 3.5rem;
+    }
+
+    .zDIvAbout {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+
+    .zDIvProduct {
+        width: 100%;
+        height: 30vh;
+        position: relative;
+    }
+
+    .zDIvProduct img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .zDIvAbout .homeOne {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+    .nextArrow {
+        display: none;
+    }
+
+    .prevArrow {
+        display: none;
+    }
+
+    .headerMainOne {
+        display: flex;
+        background: black;
+        padding: 0.8rem 0;
+        justify-content: space-between;
+        border-bottom: 0.8px solid #cbc8c8;
+    }
+
+    .headOne {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mainHome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeTwo button {
+        background: #3B0C3A !important;
+        box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15), -5px 7px 16px rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
+        border: none;
+        padding: 8px 40px;
+        color: #FFFFFF;
+        margin-top: 0.5rem;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 26px;
+        transition: 0.5s;
+    }
+
+    .zDIv .homeOne {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+    .homeOne {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .homeTwo h1 {
+        font-family: 'Great Vibes';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+    }
+
+    .zDIv {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+
+}
+
+@media(max-width: 660px) {
+
+    .homeText {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 119px;
+        color: #FFFFFF;
+        padding-top: 2rem;
+    }
+
+    .zDIv {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+
+    .zDIvAbout {
+        width: 100%;
+        height: 50vh;
+        margin-top: 3rem;
+        position: relative;
+    }
+
+    .zDIvProduct {
+        width: 100%;
+        height: 40vh;
+        margin-top: 5rem;
+        position: relative;
+    }
+
+    .zDIvProduct img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .homeTwo button {
+        background: #3B0C3A !important;
+        box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15), -5px 7px 16px rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
+        border: none;
+        padding: 4px 28px;
+        color: #FFFFFF;
+        margin-top: 0.5rem;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 26px;
+        transition: 0.5s;
+    }
+
+    .zDIv .homeOne {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+    .homeOne {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .homeTwo h1 {
+        font-family: 'Great Vibes';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+    }
+
+    .zDIv {
+        width: 100%;
+        height: 50vh;
+        margin-top: 3rem;
+        position: relative;
+    }
+
+    .prevArrow {
+        display: none;
+    }
+
+    .nextArrow {
+        display: none;
+    }
+
+    .headerMainOne {
+        display: flex;
+        align-items: center;
+        background: black;
+        padding: 0.8rem 3rem;
+        justify-content: space-between;
+        border-bottom: 0.8px solid #cbc8c8;
+    }
+
+    .headerRight {
+        display: flex;
+        padding: 0.5rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerRight div a {
+        font-size: 28px;
+    }
+
+    .headerRight select {
+        border: none !important;
+        background: black;
+        color: white;
+        font-weight: 500;
+        margin-top: 0.3rem;
+        margin-left: 0.8rem;
+        cursor: pointer;
+        font-size: 22px;
+    }
+
+    .headerOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerOne span {
+        display: none;
+    }
+
+    .headerOne div i {
+        font-size: 28px;
+    }
+
+    .headOne {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0;
+        margin: 0.5rem 0;
+    }
+
+    .mainHome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headerTwo {
+        width: 100%;
+        margin: 0 auto;
+        background: black;
+        padding: 0.3rem 0;
+    }
+
+    .headerIcons {
+        padding: 0;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .zDIvProduct {
+        width: 100%;
+        height: 30vh;
+        position: relative;
+    }
+
+    .zDIvProduct img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .homeTwo button {
+        background: #3B0C3A !important;
+        box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.15), -5px 7px 16px rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
+        border: none;
+        padding: 4px 28px;
+        color: #FFFFFF;
+        margin-top: 0.5rem;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 26px;
+        transition: 0.5s;
+    }
+
+    .zDIv .homeOne {
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+
+    .homeOne {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .homeTwo h1 {
+        font-family: 'Great Vibes';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+    }
+
+    .zDIv {
+        width: 100%;
+        height: 50vh;
+        margin-top: 5rem;
+        position: relative;
+    }
+
+    .prevArrow {
+        display: none;
+    }
+
+    .nextArrow {
+        display: none;
+    }
+
+    .headerMainOne {
+        display: flex;
+        align-items: center;
+        background: black;
+        padding: 0.8rem 3rem;
+        justify-content: space-between;
+        border-bottom: 0.8px solid #cbc8c8;
+    }
+
+    .headerRight {
+        display: flex;
+        padding: 0.5rem 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerRight div a {
+        font-size: 28px;
+    }
+
+    .headerRight select {
+        border: none !important;
+        background: black;
+        color: white;
+        font-weight: 500;
+        margin-top: 0.3rem;
+        margin-left: 0.8rem;
+        cursor: pointer;
+        font-size: 22px;
+    }
+
+    .headerOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerOne span {
+        display: none;
+    }
+
+    .headerOne div i {
+        font-size: 28px;
+    }
+
+    .headOne {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0;
+        margin: 0.5rem 0;
+    }
+
+    .mainHome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headerTwo {
+        width: 100%;
+        margin: 0 auto;
+        background: black;
+        padding: 0.3rem 0;
+    }
+
+    .headerIcons {
+        padding: 0;
+    }
+
+}

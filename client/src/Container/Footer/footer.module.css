@@ -1,0 +1,136 @@
+.footerMain {
+    width: 100%;
+    background: black;
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    bottom: 0;
+}
+
+.col {
+    padding: 2rem 0;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100% !important;
+}
+
+.col h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.col p {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+
+.icons {
+    font-size: 27px !important;
+}
+
+.col div i {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.colLi {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.colLi h2 {
+    width: 55%;
+}
+
+.colLi ul {
+    width: 70%;
+}
+
+.colLi ul li i {
+    font-size: 25px;
+    padding-right: 0.5rem;
+}
+
+.colLi ul li a:hover{
+    color: #FFFFFF !important;
+}
+
+.location {
+    font-size: 30px;
+}
+
+.colLi ul li {
+    list-style-type: none;
+    color: #FFFFFF;
+    padding: 0.8rem 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+
+.colLi ul li i svg path {
+    fill: #FFFFFF !important;
+}
+
+@media(max-width: 950px) {
+
+    .colLi {
+        width: 100%;
+        padding: 2rem 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .colLi h2 {
+        font-size: 20px;
+        padding-left: 0 !important;
+    }
+
+    .colLi ul {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .colLi {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .colLi h2 {
+        padding-left: 2rem;
+        font-size: 22px;
+    }
+}

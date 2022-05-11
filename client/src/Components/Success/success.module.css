@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.main div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main div span {
+    background: #13653f;
+    width: 8rem;
+    height: 8rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+
+.main div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main div h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.main div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 51px;
+    color: #000000;
+}

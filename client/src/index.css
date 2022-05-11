@@ -1,0 +1,369 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Roboto Slab',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background: black !important;
+}
+
+.navbar {
+    background: black !important;
+}
+
+.navbar-nav {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.navbar-nav a {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 1.5rem;
+}
+
+.texterea input {
+    padding-bottom: 5rem;
+}
+
+.inputContact input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #C4C4C4;
+}
+
+.inputContact input {
+    background: #FFFFFF;
+    border: 1px solid #5D6473;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.btnContact {
+    width: 100% !important;
+    background: #FF3704;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 0;
+    transition: 0.5s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.btnContact:hover {
+    width: 100% !important;
+    background: rgba(255, 55, 4, 0.71);
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 0;
+    transition: 0.8s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.myClassname {
+    margin: 2rem 0;
+}
+
+.formFlex {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.formFlex div {
+    width: 100%;
+}
+
+.formFlex div input {
+    width: 76%;
+}
+
+.formFlex div select {
+    width: 76%;
+    background: #FFFFFF;
+    border: 1px solid #A09898;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    text-indent: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+}
+
+.texterea input {
+    padding-bottom: 5.5rem !important;
+}
+
+.was-validated .form-select:valid:not([multiple]):not([size]) {
+    background-repeat: no-repeat !important;
+}
+
+/*.slick-track {*/
+/*  width: 100%;*/
+/*  display: flex !important;*/
+/*  justify-content: space-between !important;*/
+/*}*/
+
+.slick-initialized {
+    position: relative !important;
+}
+
+.ActivePagItem {
+    background: #AC4D75;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.pagItem {
+    padding: 0 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #979797;
+    cursor: pointer;
+}
+
+.show > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: black !important;
+    border-color: #13653f;
+}
+
+btn-success:active:focus, .show > .btn-success.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+    box-shadow: none !important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.dropdown-menu .show {
+    width: 20% !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -50px !important;
+    right: 0 !important;
+    margin-top: 0.125rem;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+.pagBox {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.btnArrow {
+    background: none;
+    border: none;
+}
+
+.nav-item {
+    padding: 0.3rem 2rem !important;
+}
+
+.nav-item button {
+    padding: 0.5rem 3rem !important;
+    width: 100% !important;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150.38%;
+    color: #3B0C3A;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    text-align: center;
+}
+
+.link:hover {
+     color: none !important;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #FFFFFF;
+    isolation: isolate;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid #FFFFFF;
+    /* border-top-left-radius: 0.25rem; */
+    /* border-top-right-radius: 0.25rem; */
+}
+
+.nav-tabs .nav-link.active {
+    background: #3B0C3A !important;
+    border-radius: 0 0px 0px 0px !important;
+    border-color: none !important;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+}
+
+
+.nav-tabs .nav-link:hover {
+    border-color: none !important;
+    isolation: isolate;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: none !important;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 1.5%;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex !important;
+    margin: 0 auto !important;
+    justify-content: center;
+}
+
+.slick-dots {
+    list-style-type: none !important;
+}
+
+.slick-active button {
+    color: #FFFFFF !important;
+    background: #FFFFFF !important;
+}
+
+.slick-dots li button {
+    background: #5D6473;
+    color: #5D6473;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+@media (max-width: 920px) {
+    .nav-tabs {
+        display: flex !important;
+        justify-content: start !important;
+        margin: 3rem 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .formFlex {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .btnContact {
+        width: 100%;
+    }
+
+    .nav-tabs {
+        display: flex !important;
+        justify-content: center !important;
+        margin: 2rem 0;
+    }
+
+    .nav-item button {
+        padding: 0.5rem 3rem !important;
+        width: 100% !important;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150.38%;
+        color: #3B0C3A;
+    }
+
+    .nav-tabs .nav-link.active {
+        background: #3B0C3A !important;
+        border-radius: 0 0px 0px 0px !important;
+        border-color: none !important;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150.38%;
+        color: #FFFFFF;
+    }
+
+}

@@ -1,0 +1,131 @@
+.pink {
+    background: #AC4D75;
+    padding: 0.9rem 0 0.8rem 0;
+    margin-top: 5rem;
+}
+
+.bhText {
+    text-align: end;
+}
+
+.bhText p {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+
+.bhText p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+}
+
+.bhInput {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.inp {
+    width: 85%;
+}
+
+.bhInput div input {
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 12px;
+    border: none;
+    text-indent: 10px;
+    z-index: -20;
+}
+
+.bhBtn {
+    position: absolute;
+    top: 12%;
+    right: 3%;
+    z-index: 10;
+}
+
+.bhBtn button {
+    background: #FFFFFF;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #3B0C3A;
+    transition: 0.5s;
+}
+
+.bhBtn button:hover {
+    background: #AC4D75;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+@media(max-width: 950px) {
+    .bhText p {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150.38%;
+        color: #FFFFFF;
+    }
+}
+
+@media(max-width: 550px) {
+    .bhText p {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150.38%;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .bhInput {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .bhBtn button {
+        background: #FFFFFF;
+        border: 1px solid #3B0C3A;
+        box-sizing: border-box;
+        border-radius: 12px;
+        padding: 5.8px 20px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 150.38%;
+        color: #3B0C3A;
+        transition: 0.5s;
+    }
+
+    .bhBtn {
+        position: absolute;
+        top: 15%;
+        right: 10%;
+    }
+}

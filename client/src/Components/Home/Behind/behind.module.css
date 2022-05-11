@@ -1,0 +1,174 @@
+.divOne {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.behid  {
+    margin: 0 auto;
+}
+
+.behid h1 {
+    text-align: center;
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 102px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+}
+
+.behid p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.behid button {
+    background: #3B0C3A;
+    box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    padding: 9px 60px;
+    cursor: pointer !important;
+    transition: 0.5s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.behid button:hover {
+    background: #774276;
+    box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 9px 60px;
+    transition: 0.8s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.pink {
+    background: #AC4D75;
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
+
+.bhText {
+    text-align: end;
+}
+
+.bhText p {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+
+.bhText p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+}
+
+.bhInput {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.inp {
+    width: 85%;
+}
+
+.bhInput div input {
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 12px;
+    border: none;
+    text-indent: 10px;
+}
+
+.bhBtn {
+    position: absolute;
+    top: 12%;
+    right: 3%;
+}
+
+.bhBtn button {
+    background: #FFFFFF;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #3B0C3A;
+    transition: 0.5s;
+}
+
+.bhBtn button:hover {
+    background: #AC4D75;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+@media(max-width: 950px) {
+    .divOne {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .divOne {
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .behid h1 {
+        text-align: start;
+        font-family: 'Great Vibes';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 50px;
+        letter-spacing: 0.16em;
+        color: #FFFFFF;
+    }
+}

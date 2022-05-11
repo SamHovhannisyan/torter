@@ -1,0 +1,170 @@
+/*.aboutMain {*/
+/*    background-image: url("../../../public/homeBg.png");*/
+/*    background-color: #cccccc; !* Used if the image is unavailable *!*/
+/*    height: 650px; !* You must set a specified height *!*/
+/*    background-position: center; !* Center the image *!*/
+/*    background-repeat: no-repeat; !* Do not repeat the image *!*/
+/*    background-size: cover; !* Resize the background image to cover the entire container *!*/
+/*}*/
+
+
+.homeMainAbout {
+    position: relative !important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.divMain {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.divMain button {
+    background: #3B0C3A;
+    box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 40px;
+    cursor: pointer !important;
+    transition: 0.5s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.divMain button:hover {
+    background: #774276;
+    box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 40px;
+    transition: 0.8s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.aboutZet {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.homeMainTwo {
+    width: 100% !important;
+}
+
+.homeMainTwo img {
+    width: 100% !important;
+    height: 100%;
+}
+
+.homeMainAbout h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FF698D;
+}
+
+.homeMainAbout p {
+    text-indent: 25px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #000000 !important;
+    max-width: 90%;
+}
+
+@media (max-width: 950px) {
+    .homeMainAbout h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 42px;
+        color: #FF698D;
+    }
+
+    .homeMainAbout p {
+        text-indent: 0;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000 !important;
+        max-width: 90%;
+    }
+
+    .divMain button {
+        background: #3B0C3A;
+        box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
+        border: none;
+        color: #FFFFFF;
+        padding: 5px 30px;
+        cursor: pointer !important;
+        transition: 0.5s;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .homeMainAbout h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 42px;
+        color: #FF698D;
+    }
+
+    .homeMainAbout p {
+        text-indent: 0;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 34px;
+        color: #000000 !important;
+        max-width: 90%;
+    }
+
+    .divMain {
+        padding-top: 4rem;
+    }
+
+    .divMain button {
+        background: #3B0C3A;
+        box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
+        border: none;
+        color: #FFFFFF;
+        padding: 5px 30px;
+        cursor: pointer !important;
+        transition: 0.5s;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+    }
+}

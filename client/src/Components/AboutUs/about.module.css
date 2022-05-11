@@ -1,0 +1,337 @@
+.aboutTitle {
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.aboutTitle h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #AC4D75;
+}
+
+.aboutTitle p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 156.38%;
+    color: #000000;
+    padding: 0.5rem 0;
+}
+
+.povrsOne {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.povrsTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 8rem;
+}
+
+.p1 {
+    margin-bottom: 2rem;
+    width: 90%;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.p2 {
+    width: 80%;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.p3 {
+    width: 70%;
+    margin-bottom: 2rem;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.p4 {
+    width: 90%;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.banerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    height: 80vh !important;
+    text-align: center;
+    color: #3B0C3A;
+}
+
+.banerText h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 150.38%;
+    color: #3B0C3A;
+}
+
+
+.banerText p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    color: #3B0C3A;
+    width: 50%;
+}
+
+.smileDiv {
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.smileDiv h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #AC4D75;
+}
+
+.arrowMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.arrowFlex {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.imgOne {
+    width: 85%;
+}
+
+.arrowFlex img {
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.arrowFlex p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.38%;
+    color: #000000;
+}
+
+.pink {
+    background: #AC4D75;
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
+
+.bhText {
+    text-align: end;
+}
+
+.bhText p {
+    margin: 0;
+    padding-top: 0.5rem;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.bhInput {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.inp {
+    width: 85%;
+}
+
+.bhInput div input {
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 12px;
+    border: none;
+    text-indent: 10px;
+}
+
+.bhBtn {
+    position: absolute;
+    top: 12%;
+    right: 3%;
+}
+
+.bhBtn button {
+    background: #FFFFFF;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #3B0C3A;
+    transition: 0.5s;
+}
+
+.bhBtn button:hover {
+    background: #AC4D75;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.behid  {
+    margin: 0 auto;
+}
+
+.behid h1 {
+    text-align: center;
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 102px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+}
+
+.behid p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+@media(max-width: 920px) {
+
+    .imgOne {
+        width: 100% !important;
+    }
+
+    .p1 {
+        width: 100% !important;
+        height: 25vh;
+    }
+
+    .p2 {
+        width: 100% !important;
+        height: 25vh;
+    }
+
+    .p3 {
+        width: 100% !important;
+        height: 25vh;
+    }
+
+    .p4 {
+        width: 100% !important;
+        height: 25vh;
+    }
+
+    .arrowMain {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+}
+
+@media(max-width: 800px) {
+
+    .imgOne {
+        width: 100% !important;
+    }
+
+    .p1 {
+        width: 100% !important;
+        height: 45vh;
+    }
+
+    .p2 {
+        width: 100% !important;
+        height: 45vh;
+    }
+
+    .p3 {
+        width: 100% !important;
+        height: 45vh;
+    }
+
+    .p4 {
+        width: 100% !important;
+        height: 45vh;
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media(max-width: 550px) {
+
+    .imgOne {
+        width: 100% !important;
+    }
+
+    .p1 {
+        width: 100% !important;
+        height: 35vh;
+    }
+
+    .p2 {
+        width: 100% !important;
+        height: 35vh;
+    }
+
+    .p3 {
+        width: 100% !important;
+        height: 35vh;
+    }
+
+    .p4 {
+        width: 100% !important;
+        height: 35vh;
+    }
+}

@@ -1,0 +1,112 @@
+.cheMain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.chef {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.chef h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FF698D;
+}
+
+.chef p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.chef button {
+    background: #3B0C3A;
+    box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 40px;
+    cursor: pointer !important;
+    transition: 0.5s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.chef button:hover {
+    background: #774276;
+    box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    border: none;
+    color: #FFFFFF !important;
+    padding: 8px 40px;
+    transition: 0.8s;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.cofeImg {
+    width: 100%;
+}
+
+.cofeImg img {
+    width: 100%;
+}
+
+@media(max-width: 950px) {
+    .chef h2 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 42px;
+        color: #FF698D;
+    }
+
+    .chef p {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 34px;
+        color: #000000;
+    }
+
+    .chef button {
+        background: #3B0C3A;
+        box-shadow: -5px 7px 16px rgba(255, 255, 255, 0.1);
+        border-radius: 17px;
+        border: none;
+        color: #FFFFFF;
+        padding: 5px 30px;
+        cursor: pointer !important;
+        transition: 0.5s;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .chef {
+        width: 100%;
+        margin: 2rem auto;
+    }
+}

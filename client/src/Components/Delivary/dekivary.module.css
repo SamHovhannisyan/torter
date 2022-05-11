@@ -1,0 +1,201 @@
+.deleveryDiv h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.deleveryDiv p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.tableFlex {
+    display: flex;
+}
+
+.table {
+    margin: 2rem auto;
+}
+
+.tdR {
+    border-right: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 0.5rem 5rem;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.tdL {
+    border-bottom: 1px solid #C4C4C4;
+    padding: 0.5rem 5rem;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.td {
+    border-bottom: 1px solid #C4C4C4;
+    padding: 0.5rem 5rem;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.pink {
+    background: #AC4D75;
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
+
+.bhText {
+    text-align: end;
+}
+
+.bhText p {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+
+.bhText p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+}
+
+.bhInput {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    position: relative;
+}
+
+.bhInput div {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.bhInput div input {
+    width: 80%;
+    padding: 0.8rem 0;
+    border-radius: 12px;
+    border: none;
+}
+
+.bhBtn {
+    position: absolute;
+    top: 12%;
+    right: 10px;
+}
+
+.bhBtn button {
+    background: #FFFFFF;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #3B0C3A;
+    transition: 0.5s;
+}
+
+.bhBtn button:hover {
+    background: #AC4D75;
+    border: 1px solid #3B0C3A;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 5.8px 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.bgDiv {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+.bgDiv h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 150.38%;
+    color: #FFFFFF;
+}
+
+.bgDiv p {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150.38%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media(max-width: 550px) {
+    .deleveryDiv {
+        text-align: center;
+    }
+
+    .tdL {
+        border-bottom: 1px solid #C4C4C4;
+        padding: 0.5rem 1rem;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    .tdR {
+        border-right: 1px solid #C4C4C4;
+        border-bottom: 1px solid #C4C4C4;
+        padding: 0.5rem 1rem;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+}
